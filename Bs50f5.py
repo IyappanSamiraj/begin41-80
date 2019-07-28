@@ -1,5 +1,5 @@
 n=int(input())
-if n%2==0:
-    print('yes')
-else:
+if (n & n-1):
     print('no')
+else:
+    print('yes')
