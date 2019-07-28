@@ -1,3 +1,4 @@
-n=input()
-s=n.replace(""," ")
-print(s)
+n=int(input())
+d=[int(x) for x in str(n)]
+print(*d)
+
